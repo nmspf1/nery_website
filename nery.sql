@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 01, 2017 at 02:28 AM
+-- Generation Time: Jul 01, 2017 at 02:55 AM
 -- Server version: 5.7.14
 -- PHP Version: 7.0.15
 
@@ -117,14 +117,14 @@ CREATE TABLE IF NOT EXISTS `tbl_users` (
   `createdDtm` datetime NOT NULL,
   `updatedBy` int(11) DEFAULT NULL,
   `updatedDtm` datetime DEFAULT NULL
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `tbl_users`
 --
 
 INSERT INTO `tbl_users` (`userId`, `email`, `password`, `name`, `mobile`, `roleId`, `isDeleted`, `createdBy`, `createdDtm`, `updatedBy`, `updatedDtm`) VALUES
-(1, 'test@gmail.com', '$2y$10$ga/cjVTrHLDnTK2LkcEXK.DX5NWXlxzyrPjGMTjVnXeemvgBc/Qo2', 'Nuno Fernandes', '9890098900', 1, 0, 0, '2015-07-01 18:56:49', 1, '2017-06-30 16:07:24');
+(4, 'test@test.com', '$2y$10$vpcVNuYwqMWc.6TrvsthPe1jzvvc0hQIQQxQSiT185uMLWImJ8Qoe', 'Nery', '0000000000', 1, 0, 1, '2017-07-01 02:47:21', NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -188,7 +188,7 @@ ALTER TABLE `tbl_roles`
 -- AUTO_INCREMENT for table `tbl_users`
 --
 ALTER TABLE `tbl_users`
-  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=4;
+  MODIFY `userId` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

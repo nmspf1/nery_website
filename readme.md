@@ -1,9 +1,9 @@
 ### Nery Website
 
 #### Backoffice
-Just go to `http://yourwebsite.com/login`
+Just go to http://yourwebsite.com`/login`
 
-Email: `test@gmail.com`
+Email: `test@test.com`
 Password: `123456`
 
 

@@ -18,7 +18,7 @@
   <body class="login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="#"><b>GrowingDesign</b><br>Admin System</a>
+        <a href="#"><b>GrowingDesign</b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Sign In</p>
@@ -72,8 +72,7 @@
           </div>
         </form>
 
-        <a href="<?php echo base_url() ?>forgotPassword">Forgot Password</a><br>
-        
+
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
 
