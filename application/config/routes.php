@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "login";
+$route['default_controller'] = "landing/index";
 $route['404_override'] = 'error';
 
 
@@ -50,6 +50,7 @@ $route['logout'] = 'user/logout';
 $route['userListing'] = 'user/userListing';
 $route['userListing/(:num)'] = "user/userListing/$1";
 $route['addNew'] = "user/addNew";
+
 
 $route['addNewUser'] = "user/addNewUser";
 $route['editOld'] = "user/editOld";
@@ -68,5 +69,10 @@ $route['resetPasswordConfirmUser/(:any)'] = "login/resetPasswordConfirmUser/$1";
 $route['resetPasswordConfirmUser/(:any)/(:any)'] = "login/resetPasswordConfirmUser/$1/$2";
 $route['createPasswordUser'] = "login/createPasswordUser";
 
-/* End of file routes.php */
-/* Location: ./application/config/routes.php */
+
+/***/
+
+$route['slideshow'] = "dashboard/slideshow_upload";
+$route['slideshow/upload'] = "dashboard/slideshow_upload";
+$route['slideshow/remove/(:num)'] = "dashboard/slideshow_remove/$1";
+
